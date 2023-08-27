@@ -25,8 +25,8 @@ int main(void) {
 	 * A and z else it not an alphabet
 	 */
 
-	if (character >= 'a' || character >= 'A' && character <= 'z'
-			|| character <= 'Z') {
+	if (character >= 'a'  && character <= 'z'
+			||  character >= 'A'&& character <= 'Z') {
 
 		printf("%c is  an alphabet ", character);
 
