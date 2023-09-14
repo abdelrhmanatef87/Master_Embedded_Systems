@@ -37,6 +37,6 @@ int main(void) {
 
 int Fourth_leastBit(short int num) {
 
-	int bit = (1 & (num << 3));
+	int bit = (1 & (num >> 3));
 	return bit;
 }
