@@ -55,23 +55,30 @@
 
 | **EX6: Write the output of this program** |
 |------------------------------------------|
-| ```
-#include <stdio.h>
-
-union job { // defining a union
-    char name[32];
-    float salary;
-    int worker_no;
-} u;
-
-struct job1 {
-    char name[32];
-    float salary;
-    int worker_no;
-} s;
-
-int main() {
-    printf("size of union = %d", sizeof(u));
-    printf("\nsize of structure = %d", sizeof(s));
-    return 0;
-}
+|
+    
+    
+    union U_job
+    {
+        char name [32] ;
+        float salary;
+        int worker_no;
+    
+    } U_union;
+    
+    struct S_job
+    {
+        char name [32];
+        float salary;
+        int worker_no;
+    
+    } S_structure;
+    
+    
+    int main ()
+    {
+        printf ("Size of the union is: %d", sizeof (U_union));
+        printf ("\nSize of the structure is: %d", sizeof (S_structure));
+    
+        return 0;
+    }|
