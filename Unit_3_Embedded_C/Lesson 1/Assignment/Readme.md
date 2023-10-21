@@ -10,7 +10,6 @@ Create a file named `platform_types.h` that contains `typedef` declarations for 
 |----------|-----------------|
 | 1        | Create a new file named `platform_types.h`. |
 | 2        | Add `typedef` declarations for common platform types. Example: |
-|          | ```c |
 |          | typedef unsigned char uint8_t; |
 |          | typedef signed char int8_t; |
 |          | typedef unsigned short uint16_t; |
