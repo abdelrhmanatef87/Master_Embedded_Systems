@@ -1,0 +1,19 @@
+symbols for main.o 
+
+00000004 C i
+00000000 T main
+00000000 D R_ODR
+
+symbols for startup.o 
+
+00000000 t _reset
+00000006 t _Vector_handler
+         U main
+
+symbols for Toggle_Led_cortem-m3.elf
+
+08000050 t _reset
+08000056 t _Vector_handler
+20000000 B i
+08000058 T main
+080000e8 D R_ODR

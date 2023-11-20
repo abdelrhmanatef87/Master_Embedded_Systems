@@ -1,0 +1,54 @@
+
+
+sybmols for main.o
+
+0000000c T Bus_Fault
+00000000 R const_variavles
+00000000 D global_variables
+00000004 C i
+00000018 T main
+00000000 T NMI_Handler
+0000000c D R_ODR
+
+
+symbols for startup.o
+
+         U _E_bss
+         U _E_data
+         U _E_text
+         U _S_bss
+         U _S_data
+         U _stack_top
+00000084 W Bus_Fault
+00000084 T Default_Handler
+00000084 W H_Fault_Handler
+         U main
+00000084 W MM_Fault_Handler
+00000084 W NMI_Handler
+00000000 T Reset_Handler
+00000084 W Usage_Fault_Handler
+00000000 D vectors
+
+
+
+sybmols for Toggle_Led_cortex_m3.elf
+
+20000010 B _E_bss
+20000010 D _E_data
+08000160 T _E_text
+20000010 B _S_bss
+20000000 D _S_data
+20001010 B _stack_top
+08000028 T Bus_Fault
+08000154 T const_variavles
+08000148 T Default_Handler
+20000000 D global_variables
+08000148 W H_Fault_Handler
+20001010 B i
+08000034 T main
+08000148 W MM_Fault_Handler
+0800001c T NMI_Handler
+2000000c D R_ODR
+080000c4 T Reset_Handler
+08000148 W Usage_Fault_Handler
+08000000 T vectors
