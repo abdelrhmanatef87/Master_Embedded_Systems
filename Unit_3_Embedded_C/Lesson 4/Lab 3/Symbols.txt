@@ -1,0 +1,37 @@
+
+main.o:
+00000000 T main
+
+startup.o:
+         U _E_bss
+         U _E_data
+         U _E_text
+         U _S_bss
+         U _S_data
+00000084 W Bus_Fault
+00000084 T Default_Handler
+00000000 R g_p_fn_Vectors
+00000084 W H_Fault_Handler
+         U main
+00000084 W MM_Fault_Handler
+00000084 W NMI_Handler
+00000000 T Reset_Handler
+00000000 b Stack_top
+00000084 W Usage_Fault_Handler
+
+Toggle_Led_cortex-m4.elf:
+20000400 B _E_bss
+20000000 T _E_data
+00000138 T _E_text
+20000000 B _S_bss
+20000000 T _S_data
+0000012c W Bus_Fault
+0000012c T Default_Handler
+00000000 T g_p_fn_Vectors
+0000012c W H_Fault_Handler
+0000001c T main
+0000012c W MM_Fault_Handler
+0000012c W NMI_Handler
+000000a8 T Reset_Handler
+20000000 b Stack_top
+0000012c W Usage_Fault_Handler
