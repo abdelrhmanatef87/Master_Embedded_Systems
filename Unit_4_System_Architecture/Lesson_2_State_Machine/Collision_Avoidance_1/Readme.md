@@ -13,6 +13,6 @@
 ![Alt text](https://github.com/abdelrhmanatef87/Master_Embedded_Systems/blob/main/Unit_4_System_Architecture/Lesson_2_State_Machine/Collision_Avoidance_1/Collision_Avoidance_stateMachine.png)
 ![Alt text](https://github.com/abdelrhmanatef87/Master_Embedded_Systems/blob/main/Unit_4_System_Architecture/Lesson_2_State_Machine/Collision_Avoidance_1/DC_motro_stateMachine.png)
 ![Alt text](https://github.com/abdelrhmanatef87/Master_Embedded_Systems/blob/main/Unit_4_System_Architecture/Lesson_2_State_Machine/Collision_Avoidance_1/UltraSinc_Sensor_stateMachine.png)
-# sequence diagram
+# Dynamic sequence diagram
 ![Alt text](https://github.com/abdelrhmanatef87/Master_Embedded_Systems/blob/main/Unit_4_System_Architecture/Lesson_2_State_Machine/Collision_Avoidance_1/Collision_Avoidance_Sequence%20Diagram%20.png)
 
